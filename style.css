@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+    -cor1: #012E40;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: var(--color2);
+    display: flex;
+    background: url(images/livro.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff70;
+    padding: 40px;
+    border-radius: 5%;
+    box-shadow: 3px 3px 1px 0px #00000080;
+}
+.card > h1{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #012E40;
+
+}
