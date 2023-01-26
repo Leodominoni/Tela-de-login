@@ -30,5 +30,82 @@
     text-align: center;
     margin-bottom: 15px;
     color: #012E40;
+}
+.label-float input{
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #012E40;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top:  5%;
+    margin-bottom: 5%;
+}
+.label-float input:focus{
+    border-bottom: 2px solid #012E40;
+}
+.label-float label{
+    color: #012E40;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;   
+    transition: all .3s ease-out;
+}
+.label-float input:focus + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: #032957;
+}
+button{
+    background-color: transparent;
+    border-color: none;
+    padding: 7px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-size: 12pt;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+}
+button:hover{
+    background-color: #11698C;;
+    color: #ffffff;
 
+}
+.justify-content{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+}
+p{
+    color: #032957;
+    font-size: 12pt;
+    text-align: center;
+}
+a{
+    color: #012E40;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .4s ease-out;
+}
+a:hover{
+    color: #11698C;
 }
