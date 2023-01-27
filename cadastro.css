@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
-:root{
-    -cor1: #012E40;
-}
+
 *{
     margin: 0;
     padding: 0;
@@ -11,16 +9,17 @@
     width: 100vw;
     height: 100vh;
     display: flex;
-    background: url(images/livro.jpg) no-repeat;
+    background: url(images/book.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     justify-content: center;
     align-items: center;
 }
 .card{
+    width: 350px;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff70;
+    background-color: #ffffff90;
     padding: 40px;
     border-radius: 5%;
     box-shadow: 3px 3px 1px 0px #00000080;
@@ -51,6 +50,7 @@
 }
 .label-float input:focus{
     border-bottom: 2px solid #012E40;
+
 }
 .label-float label{
     color: #012E40;
@@ -87,27 +87,6 @@ button:hover{
 .justify-content{
     display: flex;
     justify-content: center;
-}
-
-hr{
-    align-items: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 100%;
-}
-p{
-    color: #032957;
-    font-size: 12pt;
-    text-align: center;
-}
-a{
-    color: #012E40;
-    font-weight: bold;
-    text-decoration: none;
-    transition: all .4s ease-out;
-}
-a:hover{
-    color: #11698C;
 }
 .fa-eye{
     position: absolute;
