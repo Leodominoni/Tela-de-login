@@ -96,7 +96,7 @@ function cadastrar(){
             {
                 nomeCadastrado: nome.value,
                 cursoMatriculado: curso.value,
-                user: usuario.value,
+                userCad: usuario.value,
                 senhaCadastrada: senha.value
             }
         )
