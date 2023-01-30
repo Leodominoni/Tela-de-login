@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
-:root{
-    -cor1: #012E40;
-}
 *{
     margin: 0;
     padding: 0;
@@ -82,7 +79,6 @@ button{
 button:hover{
     background-color: #11698C;;
     color: #ffffff;
-
 }
 .justify-content{
     display: flex;

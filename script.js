@@ -20,9 +20,9 @@ function logar(){
     let listaUser = []
 
     let userValid = {
-        nome: '', 
-        user: '',
-        senha: ''
+        nome: null, 
+        user: null,
+        senha: null
     }
     listaUser = JSON.parse(localStorage.getItem('listaUser'))
 
