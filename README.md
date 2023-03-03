@@ -1,4 +1,4 @@
-# Cadastro de usuário e tela de Login
+<h1 align="center"> Cadastro de usuário e tela de Login</h1>
 
 💻 Descrição do projeto: Foi desenvolvido uma tela de cadastro de usuário e tela de Login.
 
@@ -7,8 +7,8 @@
 
 Primeiramente, você precisa cadastrar um usuário para poder logar no sistema, então acesse o link: https://leodominoni.github.io/Tela-de-login/ <br>
  Clique em **Cadastra-se** e abrirá essa página: <br>
- 
-  ![image](https://user-images.githubusercontent.com/95833042/215796975-534b7975-5e38-40a1-aa4b-02885f47b12e.png)
+
+![image](https://user-images.githubusercontent.com/95833042/215796975-534b7975-5e38-40a1-aa4b-02885f47b12e.png)"
 
 
 Com os dados do usuário cadastrado como mostra na imagem, podemos voltar na tela de Login, para conseguir logar no sistema:
